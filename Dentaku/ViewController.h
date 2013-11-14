@@ -10,4 +10,18 @@
 
 @interface ViewController : UIViewController
 
+//0~9までのボタン
+- (IBAction)NumberButton:(id)sender;
+
+//演算子のボタン
+- (IBAction)OperatorButton:(id)sender;
+
+//=ボタン
+- (IBAction)Epual:(id)sender;
+
+//AllClearボタン
+- (IBAction)AllClear:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *result;
+
 @end
