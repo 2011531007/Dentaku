@@ -23,5 +23,7 @@
 - (IBAction)AllClear:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UILabel *result;
-
+@property NSInteger Box1;
+@property NSInteger Box2;
+@property NSInteger Operator;
 @end
