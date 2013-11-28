@@ -13,6 +13,9 @@
 //0~9までのボタン
 - (IBAction)NumberButton:(id)sender;
 
+//小数点ボタン
+- (IBAction)DotButton:(id)sender;
+
 //演算子のボタン
 - (IBAction)OperatorButton:(id)sender;
 
@@ -23,7 +26,10 @@
 - (IBAction)AllClear:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UILabel *result;
-@property NSInteger Box1;
-@property NSInteger Box2;
+@property double Box1;
+@property double Box2;
 @property NSInteger Operator;
+@property NSInteger EnableOperator;
+@property NSInteger EnableEquale;
+@property NSInteger EnableDot;
 @end
